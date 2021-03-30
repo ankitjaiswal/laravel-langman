@@ -8,11 +8,11 @@ translation lines with ease. Taking care of a multilingual interface is not a he
 
 <img src="http://s16.postimg.org/mghfe2v3p/ezgif_com_optimize.gif" alt="Laravel Langman">
 <br>
-<a href="https://travis-ci.org/themsaid/laravel-langman"><img src="https://travis-ci.org/themsaid/laravel-langman.svg?branch=master" alt="Build Status"></a>
+<a href="https://travis-ci.org/ankitjaiswal/laravel-langman"><img src="https://travis-ci.org/ankitjaiswal/laravel-langman.svg?branch=master" alt="Build Status"></a>
 <a href="https://styleci.io/repos/55088784"><img src="https://styleci.io/repos/55088784/shield?style=flat" alt="StyleCI"></a>
-<a href="https://packagist.org/packages/themsaid/laravel-langman"><img src="https://poser.pugx.org/themsaid/laravel-langman/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/themsaid/laravel-langman"><img src="https://poser.pugx.org/themsaid/laravel-langman/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/themsaid/laravel-langman"><img src="https://poser.pugx.org/themsaid/laravel-langman/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/ankitjaiswal/laravel-langman"><img src="https://poser.pugx.org/ankitjaiswal/laravel-langman/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/ankitjaiswal/laravel-langman"><img src="https://poser.pugx.org/ankitjaiswal/laravel-langman/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/ankitjaiswal/laravel-langman"><img src="https://poser.pugx.org/ankitjaiswal/laravel-langman/license.svg" alt="License"></a>
 
 </p>
 
@@ -21,20 +21,20 @@ translation lines with ease. Taking care of a multilingual interface is not a he
 Begin by installing the package through Composer. Run the following command in your terminal:
 
 ```
-$ composer require themsaid/laravel-langman
+$ composer require ankitjaiswal/laravel-langman
 ```
 
 Once done, add the following line in your providers array of `config/app.php`:
 
 ```php
-Themsaid\Langman\LangmanServiceProvider::class
+Ankitjaiswal\Langman\LangmanServiceProvider::class
 ```
 
 This package has a single configuration option that points to the `resources/lang` directory, if only you need to change
 the path then publish the config file:
 
 ```
-php artisan vendor:publish --provider="Themsaid\Langman\LangmanServiceProvider"
+php artisan vendor:publish --provider="Ankitjaiswal\Langman\LangmanServiceProvider"
 ```
 
 ## Usage

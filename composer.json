@@ -2,11 +2,11 @@
     "name": "ankitjaiswal/laravel-langman",
     "description": "Manage language files with ease.",
     "keywords": ["laravel", "localization", "multilingual"],
-    "homepage": "https://github.com/themsaid/laravel-langman",
+    "homepage": "https://github.com/ankitjaiswal/laravel-langman",
     "license": "MIT",
     "authors": [
         {
-            "name": "Themsaid",
+            "name": "Ankitjaiswal",
             "email": "ankitjaiswal12@gmail.com",
             "homepage": "https://ankitjaiswal.github.io"
         }
