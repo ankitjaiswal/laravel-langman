@@ -1,10 +1,10 @@
 <?php
 
-namespace Themsaid\Langman\Commands;
+namespace Ankitjaiswal\Langman\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Themsaid\Langman\Manager;
+use Ankitjaiswal\Langman\Manager;
 
 class TransCommand extends Command
 {
