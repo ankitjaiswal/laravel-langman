@@ -1,12 +1,12 @@
 <?php
 
-namespace Themsaid\Langman\Commands;
+namespace Ankitjaiswal\Langman\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
-use Themsaid\Langman\Manager;
+use Ankitjaiswal\Langman\Manager;
 
 class ShowCommand extends Command
 {
@@ -62,7 +62,7 @@ class ShowCommand extends Command
     /**
      * ListCommand constructor.
      *
-     * @param \Themsaid\LangMan\Manager $manager
+     * @param \Ankitjaiswal\LangMan\Manager $manager
      */
     public function __construct(Manager $manager)
     {
