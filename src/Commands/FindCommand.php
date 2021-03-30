@@ -107,13 +107,20 @@ class FindCommand extends Command
             list($fileName, $key) = explode('.', $fullKey, 2);
 
             $original = [];
-
+            
             foreach ($allLanguages as $languageKey) {
                 $original[$languageKey] =
                     isset($values[$languageKey])
                         ? $values[$languageKey]
-                        : isset($filesContent[$fileName][$languageKey][$key]) ? $filesContent[$fileName][$languageKey][$key] : '';
+                        : (isset($filesContent[$fileName][$languageKey][$key]) ? $filesContent[$fileName][$languageKey][$key] : '');
             }
+            
+//             foreach ($allLanguages as $languageKey) {
+//                 $original[$languageKey] =
+//                     isset($values[$languageKey])
+//                         ? $values[$languageKey]
+//                         : isset($filesContent[$fileName][$languageKey][$key]) ? $filesContent[$fileName][$languageKey][$key] : '';
+//             }
 
             // Sort the language values based on language name
             ksort($original);
