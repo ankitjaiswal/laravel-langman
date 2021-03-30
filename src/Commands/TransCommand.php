@@ -53,7 +53,7 @@ class TransCommand extends Command
     /**
      * The Languages manager instance.
      *
-     * @var \Themsaid\LangMan\Manager
+     * @var \Ankitjaiswal\LangMan\Manager
      */
     private $manager;
 
@@ -67,7 +67,7 @@ class TransCommand extends Command
     /**
      * ListCommand constructor.
      *
-     * @param \Themsaid\LangMan\Manager $manager
+     * @param \Ankitjaiswal\LangMan\Manager $manager
      * @return void
      */
     public function __construct(Manager $manager)

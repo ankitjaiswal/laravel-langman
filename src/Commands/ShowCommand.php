@@ -27,7 +27,7 @@ class ShowCommand extends Command
     /**
      * The Languages manager instance.
      *
-     * @var \Themsaid\LangMan\Manager
+     * @var \Ankitjaiswal\LangMan\Manager
      */
     private $manager;
 
