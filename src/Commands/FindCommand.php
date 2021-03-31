@@ -109,11 +109,15 @@ class FindCommand extends Command
             $original = [];
             
             foreach ($allLanguages as $languageKey) {
-                $original[$languageKey] =
-                    isset($values[$languageKey])
-                        ? $values[$languageKey]
-                        : (isset($filesContent[$fileName][$languageKey][$key]) ? $filesContent[$fileName][$languageKey][$key] : '');
+                $original[$languageKey] = (isset($values[$languageKey]) ? $values[$languageKey] : isset($filesContent[$fileName][$languageKey][$key])) ? $filesContent[$fileName][$languageKey][$key] : '';
             }
+            
+//             foreach ($allLanguages as $languageKey) {
+//                 $original[$languageKey] =
+//                     isset($values[$languageKey])
+//                         ? $values[$languageKey]
+//                         : (isset($filesContent[$fileName][$languageKey][$key]) ? $filesContent[$fileName][$languageKey][$key] : '');
+//             }
             
 //             foreach ($allLanguages as $languageKey) {
 //                 $original[$languageKey] =
